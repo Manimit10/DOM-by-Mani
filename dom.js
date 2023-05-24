@@ -15,7 +15,7 @@
 //we have some selectors in JS
 // we use them to select an specific element in the DOM
 // 1- GETELEMENTBYID
-let headerTitle = document.getElementById('header-title')
+// let headerTitle = document.getElementById('header-title')
 // console.log(headerTitle)
 // headerTitle.textContent = 'MiiiM'
 // headerTitle.innerText = 'NiiiN'
@@ -31,7 +31,7 @@ let headerTitle = document.getElementById('header-title')
 // navBar.style.borderBottom = '2px solid black'
 
 // 2- GETELEMENTSBYCLASSNAME
-let tableCells = document.getElementsByClassName('table-data')
+// let tableCells = document.getElementsByClassName('table-data')
 // console.log(tableCells[3])
 // tableCells[2].innerText = 'GiiiG'
 // tableCells[2].style.fontWeight = 'bold'
@@ -75,12 +75,12 @@ let tableCells = document.getElementsByClassName('table-data')
 // li.innerText = 'NOOOO'
 
 // QUERYSELECTORALL
-let odds = document.querySelectorAll('li:nth-child(odd)')
-let evens = document.querySelectorAll('li:nth-child(even)')
-console.log(evens)
+// let odds = document.querySelectorAll('li:nth-child(odd)')
+// let evens = document.querySelectorAll('li:nth-child(even)')
+// console.log(evens)
 
 // querySelectorAll gives us a NodeList, the good point is we cab use it exactly like an array
 
 // odds.forEach(odd => console.log(odd.textContent))
-odds.forEach(odd => odd.style.backgroundColor = '#f4f4f4')
-evens.forEach(even => even.style.backgroundColor = '#ccc')
+// odds.forEach(odd => odd.style.backgroundColor = '#f4f4f4')
+// evens.forEach(even => even.style.backgroundColor = '#ccc')
